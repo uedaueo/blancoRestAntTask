@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="blancoRestAntTask" default="build" basedir=".">
 	<!-- blancoAnt(0.1.7)により自動生成されました。 (2008/12/05) -->
-	<property name="version" value="0.0.1" />
+	<property name="version" value="2.0.0" />
 
 	<property name="project" value="blancoRestAntTask" />
 	<property name="project.lower" value="blancorestanttask" />
@@ -72,7 +72,7 @@
 	<target name="compile">
 		<delete dir="bin" />
 		<mkdir dir="bin" />
-		<javac destdir="bin" debug="true" source="1.8" target="1.8" fork="false">
+		<javac destdir="bin" debug="true" source="1.7" target="1.7" fork="false">
 			<src path="blanco/main/" />
 			<src path="src/" />
 			<classpath>
